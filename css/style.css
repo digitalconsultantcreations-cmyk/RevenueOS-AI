@@ -1,0 +1,127 @@
+/* RevenueOS AI */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0b1220;
+    color:#ffffff;
+    line-height:1.6;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#111827;
+    position:sticky;
+    top:0;
+}
+
+.logo h2{
+    color:#38bdf8;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.btn{
+    background:#38bdf8;
+    color:#000;
+    padding:10px 18px;
+    border-radius:6px;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(135deg,#111827,#1e3a8a);
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:30px;
+    color:#d1d5db;
+}
+
+.hero-button{
+    display:inline-block;
+    background:#38bdf8;
+    color:#000;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+section{
+    padding:80px 8%;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.features,
+.pricing{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card,
+.price-card{
+    background:#1f2937;
+    padding:30px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.card:hover,
+.price-card:hover{
+    transform:translateY(-8px);
+}
+
+.price-card h1{
+    color:#38bdf8;
+    margin:15px 0;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#111827;
+    color:#9ca3af;
+}
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+}
+
+nav{
+    margin-top:15px;
+}
+
+.hero h1{
+    font-size:34px;
+}
+
+}
