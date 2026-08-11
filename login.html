@@ -1,0 +1,92 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | RevenueOS AI</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <h2>RevenueOS AI</h2>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html">Create Account</a>
+    </nav>
+</header>
+
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Welcome Back</h1>
+
+        <p>
+            Sign in to access your RevenueOS AI dashboard.
+        </p>
+
+
+        <form class="login-form" id="loginForm">
+
+            <input
+                type="email"
+                id="loginEmail"
+                placeholder="Email Address"
+                required
+            >
+
+            <br><br>
+
+            <input
+                type="password"
+                id="loginPassword"
+                placeholder="Password"
+                required
+            >
+
+            <br><br>
+
+            <button
+                class="hero-button"
+                type="submit"
+            >
+                Login
+            </button>
+
+            <br><br>
+
+            <p>
+                <a href="#" id="forgotPassword">
+                    Forgot Password?
+                </a>
+            </p>
+
+            <p>
+                Don't have an account?
+                <a href="register.html">
+                    Create One
+                </a>
+            </p>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/auth.js"></script>
+
+</body>
+</html>
+```
